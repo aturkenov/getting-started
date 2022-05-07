@@ -1,0 +1,7 @@
+aioredis==2.0.1
+argon2==0.1.10
+fastapi==0.76.0
+geoalchemy2==0.11.1
+sqlalchemy==1.4.36
+sqlalchemy_utils==0.38.2
+wampify==0.1.3
