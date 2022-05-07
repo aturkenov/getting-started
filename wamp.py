@@ -2,12 +2,12 @@ import sys
 sys.path.append('./source/')
 
 import asyncio
-from api.wamp.ami import *
+from api.wamp.hunter import *
 
 
 async def main():
-    from driver.wamp.ami import wampify as ami_wampify
-    await ami_wampify.run(start_loop=False)
+    from driver.wamp.hunter import wampify as hunter_wampify
+    await hunter_wampify.run(start_loop=False)
 
 
 if __name__ == '__main__':

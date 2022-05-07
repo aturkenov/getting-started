@@ -18,7 +18,6 @@ HTTP_HOST = '0.0.0.0'
 HTTP_PORT = 8000
 HTTP_WORKERS = 1
 HTTP_DOMAIN = '/api/v1/'
-HTTP_AUTH_HEADER_PREFIX = 'JWT'
 
 
 # Datetime configs
